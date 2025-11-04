@@ -56,6 +56,29 @@ ollama pull nomic-embed-text
 ollama pull llama3.2
 ```
 
+## ⚡ Início Rápido (Quick Start)
+
+Depois de instalar as dependências, execute a aplicação:
+
+### Opção 1: Interface Web (Recomendado)
+```bash
+# Linux/Mac
+./run_web.sh
+
+# Windows
+run_web.bat
+```
+Acesse: http://localhost:8501
+
+### Opção 2: Interface CLI (Linha de Comando)
+```bash
+# Linux/Mac
+./run.sh
+
+# Windows
+run.bat
+```
+
 ## 🎯 Como Usar o Sistema
 
 ### 📋 **Pré-requisitos**
@@ -64,6 +87,15 @@ ollama pull llama3.2
 3. **Instale dependências**: `pip install -r requirements.txt`
 
 ### 🖥️ **Versão CLI (Linha de Comando)**
+
+#### Execução Rápida com Scripts
+```bash
+# Linux/Mac - Execução simplificada
+./run.sh
+
+# Windows - Execução simplificada
+run.bat
+```
 
 #### Execução Básica
 ```bash
@@ -99,6 +131,15 @@ python -c "from src.pf_rag.export_jsonl import export_chunks_jsonl; export_chunk
 ```
 
 ### 🌐 **Versão Web (Interface Streamlit)**
+
+#### Execução Rápida com Scripts
+```bash
+# Linux/Mac - Execução simplificada
+./run_web.sh
+
+# Windows - Execução simplificada
+run_web.bat
+```
 
 #### Execução da Interface Web
 ```bash
