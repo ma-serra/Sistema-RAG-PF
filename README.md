@@ -2,6 +2,8 @@
 
 Sistema de Recuperação e Geração Aumentada (RAG) especializado para consulta de espécies normativas da Polícia Federal com pipeline hierárquico e interface web moderna.
 
+> 📖 **[Guia de Execução Completo](EXECUTION_GUIDE.md)** - Instruções detalhadas para executar a aplicação
+
 ## 🚀 Funcionalidades
 
 ### 🛡️ RAG PF-Específico
@@ -589,6 +591,7 @@ Para dúvidas ou problemas:
 
 ## 📚 Documentação Adicional
 
+- 🚀 **[Guia de Execução](EXECUTION_GUIDE.md)** - Como executar a aplicação (CLI e Web)
 - 📋 **[Histórico de Mudanças](docs/CHANGELOG.md)** - Todas as versões e implementações
 - 🏗️ **[Arquitetura Técnica](docs/ARCHITECTURE.md)** - Detalhes técnicos e decisões de design
 - 📝 **[Guia de Documentação](docs/DOCUMENTATION_GUIDE.md)** - Como manter a documentação atualizada
