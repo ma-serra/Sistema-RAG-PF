@@ -4,10 +4,10 @@
 
 echo "🚀 Sistema RAG - Polícia Federal"
 echo "📋 Modo: Interface de Linha de Comando (CLI)"
-echo "=" * 50
+echo "=================================================="
 
 # Verifica se as dependências estão instaladas
-if ! python -c "import streamlit" 2>/dev/null; then
+if ! python -c "import langchain" 2>/dev/null; then
     echo "⚠️  Dependências não encontradas. Instalando..."
     pip install -r requirements.txt
 fi

@@ -4,7 +4,7 @@
 
 echo "🚀 Sistema RAG - Polícia Federal"
 echo "🌐 Modo: Interface Web (Streamlit)"
-echo "=" * 50
+echo "=================================================="
 
 # Verifica se as dependências estão instaladas
 if ! python -c "import streamlit" 2>/dev/null; then

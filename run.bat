@@ -35,4 +35,3 @@ echo 🚀 Iniciando Sistema RAG (CLI)...
 echo 💡 Digite 'sair' para encerrar
 echo.
 python main.py
-pause
