@@ -58,7 +58,7 @@ ollama pull nomic-embed-text
 ollama pull llama3.2
 ```
 
-## ⚡ Início Rápido (Quick Start)
+## ⚡ Início Rápido
 
 Depois de instalar as dependências, execute a aplicação:
 
