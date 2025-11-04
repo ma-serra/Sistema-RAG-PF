@@ -7,7 +7,7 @@ echo 📋 Modo: Interface de Linha de Comando (CLI)
 echo ==================================================
 
 REM Verifica se as dependências estão instaladas
-python -c "import streamlit" >nul 2>&1
+python -c "import langchain" >nul 2>&1
 if %errorlevel% neq 0 (
     echo ⚠️  Dependências não encontradas. Instalando...
     pip install -r requirements.txt
